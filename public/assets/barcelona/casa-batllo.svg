@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Casa Batllo">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead3bb"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.35;stroke-linecap:round}.wall{fill:#efd2a4}.side{fill:#c99461}.roof{fill:#4c8ca4}.terra{fill:#c35c3e}.glass{fill:#78c5cc}.cream{fill:#fff0cf}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M284 546 594 366 908 548 598 727z" fill="#f7e6c7"/>
+    <path d="M440 314 599 222 759 315 599 408z" class="wall"/>
+    <path d="M440 314v257l159 92V408z" fill="#f2d9ad"/>
+    <path d="M759 315v257L599 663V408z" class="side"/>
+    <path d="M432 306c43-49 94-64 154-47 57-35 114-25 178 31l-165 96z" fill="#79bed2"/>
+    <path d="M487 296c30 12 60 13 90 2" class="thin"/>
+    <path d="M605 282c42 24 85 26 130 8" class="thin"/>
+    <path d="M497 379l52-30 51 30-51 30z" class="glass"/>
+    <path d="M608 379l52-30 50 30-50 29z" class="glass"/>
+    <path d="M496 455l52-30 51 30-51 30z" class="glass"/>
+    <path d="M609 455l52-30 50 30-50 29z" class="glass"/>
+    <path d="M497 532l52-30 51 30-51 30z" class="glass"/>
+    <path d="M609 532l52-30 50 30-50 29z" class="glass"/>
+    <path d="M470 398c18 20 39 20 61 0" fill="none"/>
+    <path d="M584 398c18 20 39 20 61 0" fill="none"/>
+    <path d="M471 475c18 20 39 20 61 0" fill="none"/>
+    <path d="M584 475c18 20 39 20 61 0" fill="none"/>
+    <path d="M506 590c58 35 121 34 187 0" fill="none"/>
+    <path d="M350 543 438 492v58l-88 51z" fill="#dfb77e"/>
+    <path d="M761 511 851 563v59l-90-52z" fill="#a87652"/>
+  </g>
+  <path d="M239 327c89-30 155-31 198-2" class="thin" fill="none"/>
+  <path d="M793 247c65 16 115 49 151 100" class="thin" fill="none"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Barceloneta waterfront">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead2ba"/></linearGradient>
+    <linearGradient id="water" x1="0" x2="1"><stop offset="0" stop-color="#80cbd1"/><stop offset="1" stop-color="#2b91a6"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.sand{fill:#ecc184}.block{fill:#efd3a4}.side{fill:#c9935b}.green{fill:#6f8d67}.roof{fill:#c35c3e}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <path d="M648 420 1200 225v535H621z" fill="url(#water)" opacity=".84"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M246 544 584 349 793 470 454 666z" class="sand"/>
+    <path d="M333 511 428 456 523 511 428 566z" class="block"/>
+    <path d="M333 511v45l95 55v-45z" fill="#e5bf84"/>
+    <path d="M523 511v45l-95 55v-45z" class="side"/>
+    <path d="M474 431 568 377 663 431 568 486z" class="block"/>
+    <path d="M474 431v45l94 55v-45z" fill="#e5bf84"/>
+    <path d="M663 431v45l-95 55v-45z" class="side"/>
+    <path d="M530 554 648 486 760 550 642 619z" fill="#f3d399"/>
+    <path d="M598 544c35 26 74 26 116 1" fill="none"/>
+    <path d="M686 457l31-18 31 18v91l-31 18-31-18z" class="green"/>
+    <path d="M315 460l26-15 26 15v75l-26 15-26-15z" class="green"/>
+  </g>
+  <path d="M710 502c94 23 181 16 262-21" class="thin" fill="none"/>
+  <path d="M760 556c79 17 149 11 211-19" class="thin" fill="none"/>
+</svg>

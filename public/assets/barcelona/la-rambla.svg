@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric La Rambla promenade">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead2ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.pave{fill:#e9c28b}.side{fill:#c9935b}.green{fill:#6f8d67}.roof{fill:#c35c3e}.blue{fill:#78c5cc}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M259 546 600 349 941 546 600 743z" fill="#f5e4c6"/>
+    <path d="M401 549 603 433 803 549 602 666z" class="pave"/>
+    <path d="M463 513 604 432 743 513 602 595z" fill="#f8ecd4"/>
+    <path d="M353 525 423 485v78l-70 40z" class="side"/>
+    <path d="M778 486 848 526v78l-70-41z" class="side"/>
+    <path d="M523 473l36-21 36 21-36 21z" class="roof"/>
+    <path d="M523 473v45l36 21v-45z" fill="#e5bf84"/>
+    <path d="M595 473v45l-36 21v-45z" class="side"/>
+    <path d="M638 520l36-21 36 21-36 21z" class="blue"/>
+    <path d="M638 520v45l36 21v-45z" fill="#dcb47c"/>
+    <path d="M710 520v45l-36 21v-45z" class="side"/>
+    <path d="M442 536l47-27" class="thin"/>
+    <path d="M714 579l45-26" class="thin"/>
+    <path d="M475 462l29-17 29 17v83l-29 17-29-17z" class="green"/>
+    <path d="M694 462l29-17 29 17v83l-29 17-29-17z" class="green"/>
+  </g>
+  <path d="M239 379c66-31 124-32 174-3" class="thin" fill="none"/>
+  <path d="M792 341c74 25 124 65 151 121" class="thin" fill="none"/>
+</svg>

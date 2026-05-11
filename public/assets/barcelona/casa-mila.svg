@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Casa Mila">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ecd3ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.35;stroke-linecap:round}.stone{fill:#e6c18d}.side{fill:#bc8759}.roof{fill:#d9a441}.blue{fill:#78c5cc}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M294 548 595 374 900 550 599 724z" fill="#f7e6c7"/>
+    <path d="M410 330c71-55 140-65 206-29 58-26 113-17 166 26L599 433z" class="stone"/>
+    <path d="M410 330v232l189 109V433z" fill="#efd3a7"/>
+    <path d="M782 327v232L599 671V433z" class="side"/>
+    <path d="M469 274c21-25 45-25 70 0v68l-70 40z" class="roof"/>
+    <path d="M620 260c21-25 45-25 70 0v78l-70 41z" class="roof"/>
+    <path d="M712 300c18-19 37-19 56 0v58l-56 33z" class="roof"/>
+    <path d="M456 396c58 25 116 23 174-4" fill="none"/>
+    <path d="M456 463c58 25 116 23 174-4" fill="none"/>
+    <path d="M456 530c58 25 116 23 174-4" fill="none"/>
+    <path d="M649 401l58-34 57 33-57 33z" class="blue"/>
+    <path d="M649 470l58-34 57 33-57 33z" class="blue"/>
+    <path d="M649 539l58-34 57 33-57 33z" class="blue"/>
+  </g>
+  <path d="M241 393c71-30 122-30 154 0" class="thin" fill="none"/>
+  <path d="M836 256c65 28 107 69 125 123" class="thin" fill="none"/>
+</svg>

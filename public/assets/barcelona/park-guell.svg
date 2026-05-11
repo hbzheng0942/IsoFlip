@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Park Guell">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#e7d4ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.36;stroke-linecap:round}.green{fill:#6f8d67}.earth{fill:#dfb77e}.blue{fill:#78c5cc}.terra{fill:#c35c3e}.gold{fill:#d9a441}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M245 545 600 340 955 545 600 750z" fill="#f4e4c7"/>
+    <path d="M320 520c92-110 218-141 377-95 72 21 128 57 166 108L600 685z" class="green"/>
+    <path d="M384 520c73-52 147-52 222 0 70-29 134-23 192 18L604 650z" class="earth"/>
+    <path d="M412 517c69 47 136 47 204 0 59 33 119 34 180 3" fill="none"/>
+    <path d="M438 552c57 38 110 39 159 2" fill="none"/>
+    <circle cx="486" cy="517" r="16" class="blue"/>
+    <circle cx="546" cy="545" r="13" class="terra"/>
+    <circle cx="617" cy="526" r="14" class="gold"/>
+    <circle cx="690" cy="548" r="12" class="blue"/>
+    <path d="M536 399 602 361 671 401 604 440z" fill="#f7dcae"/>
+    <path d="M536 399v62l68 39v-60z" fill="#e5b779"/>
+    <path d="M671 401v60l-67 39v-60z" fill="#bc8759"/>
+    <path d="M575 352l28-16 29 16v52l-29 17-28-17z" class="terra"/>
+    <path d="M735 456l70-41 68 40-70 40z" fill="#f2d6a7"/>
+    <path d="M764 438v85" class="thin"/>
+    <path d="M804 414v86" class="thin"/>
+    <path d="M842 437v84" class="thin"/>
+  </g>
+  <path d="M245 354c57-61 135-84 232-69" class="thin" fill="none"/>
+  <path d="M794 259c58 19 104 54 139 104" class="thin" fill="none"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Generated market stall edge branch">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ecd0b3"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.wood{fill:#c99461}.terra{fill:#c35c3e}.blue{fill:#78c5cc}.green{fill:#6f8d67}.gold{fill:#d9a441}.paper{fill:#fff0cf}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M260 546 600 350 940 546 600 742z" fill="#f4e2c2"/>
+    <path d="M407 505 600 393 793 505 600 617z" class="wood"/>
+    <path d="M407 505v61l193 112v-61z" fill="#d5a06a"/>
+    <path d="M793 505v61L600 678v-61z" fill="#a87652"/>
+    <path d="M424 466 600 364 776 466 600 568z" class="terra"/>
+    <path d="M471 439l176 102" class="thin"/>
+    <path d="M522 409l176 102" class="thin"/>
+    <path d="M573 379l176 102" class="thin"/>
+    <path d="M490 522c39 30 77 30 116 0" fill="none"/>
+    <path d="M594 522c39 30 77 30 116 0" fill="none"/>
+    <circle cx="512" cy="492" r="13" class="gold"/>
+    <circle cx="550" cy="502" r="12" class="green"/>
+    <circle cx="590" cy="490" r="11" class="terra"/>
+    <circle cx="632" cy="502" r="12" class="blue"/>
+    <circle cx="672" cy="492" r="13" class="gold"/>
+    <path d="M493 585l58 33" class="thin"/>
+    <path d="M708 585l-58 33" class="thin"/>
+    <path d="M738 434l70-40 70 40-70 41z" class="paper"/>
+    <path d="M738 434v68l70 41v-68z" fill="#e5bf84"/>
+    <path d="M878 434v68l-70 41v-68z" fill="#bc8759"/>
+  </g>
+  <path d="M260 383c69-35 127-37 174-5" class="thin" fill="none"/>
+  <path d="M807 318c70 18 123 53 159 107" class="thin" fill="none"/>
+</svg>

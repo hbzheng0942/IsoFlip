@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Barcelona overview">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff9ea"/>
+      <stop offset="1" stop-color="#efd4b8"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1">
+      <stop offset="0" stop-color="#78c5cc"/>
+      <stop offset="1" stop-color="#2b91a6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="10" flood-color="#5a3924" flood-opacity=".22"/>
+    </filter>
+    <style>
+      .ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}
+      .thin{stroke:#563b2a;stroke-width:1.5;stroke-linecap:round;opacity:.38}
+      .roof{fill:#c35c3e}.wall{fill:#f4d8aa}.side{fill:#dba76d}.green{fill:#6f8d67}.blue{fill:#79bed2}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#paper)"/>
+  <path d="M736 562 1190 396v364H684z" fill="url(#water)" opacity=".82"/>
+  <path d="M772 575c82-30 159-59 231-90" class="thin" fill="none"/>
+  <g filter="url(#shadow)">
+    <path d="M178 452 602 205 930 392 493 642z" fill="#f7e6c9" class="ink"/>
+    <path d="M206 455 607 222 898 391 493 622z" fill="#f9eed8" stroke="#563b2a" stroke-width="2" opacity=".72"/>
+    <g opacity=".72">
+      <path d="M283 441 604 254 816 376 492 562z" fill="none" class="thin"/>
+      <path d="M330 468 650 280" class="thin"/>
+      <path d="M378 496 696 307" class="thin"/>
+      <path d="M426 523 742 335" class="thin"/>
+      <path d="M474 551 790 362" class="thin"/>
+      <path d="M296 414 520 545" class="thin"/>
+      <path d="M357 379 581 510" class="thin"/>
+      <path d="M418 344 642 475" class="thin"/>
+      <path d="M479 309 703 440" class="thin"/>
+      <path d="M540 274 764 405" class="thin"/>
+    </g>
+    <g class="ink">
+      <path d="M690 330 746 298 803 331 747 363z" class="roof"/>
+      <path d="M690 330v54l57 33v-54z" class="wall"/>
+      <path d="M803 331v54l-56 32v-54z" class="side"/>
+      <path d="M721 267l26-15 27 15v80l-27 16-26-16z" fill="#f0c983"/>
+      <path d="M743 221l19 37-38 1z" class="roof"/>
+      <path d="M773 245l18 62-35-1z" class="roof"/>
+      <path d="M712 248l-14 61 33-4z" class="roof"/>
+    </g>
+    <g class="ink">
+      <path d="M480 399 538 365 594 398 536 431z" class="roof"/>
+      <path d="M480 399v42l56 33v-43z" class="wall"/>
+      <path d="M594 398v42l-58 34v-43z" class="side"/>
+      <path d="M518 334l22-12 22 12v50l-22 13-22-13z" fill="#f1cf8e"/>
+    </g>
+    <g class="ink">
+      <path d="M335 475c52-54 128-64 172-28-61 10-103 40-126 88z" class="green"/>
+      <path d="M385 454c36 8 68 24 94 49" fill="none"/>
+      <circle cx="417" cy="478" r="13" fill="#d9a441"/>
+      <circle cx="457" cy="498" r="11" fill="#2b91a6"/>
+    </g>
+    <g class="ink">
+      <path d="M374 545 450 501 526 545 449 589z" fill="#e9c28b"/>
+      <path d="M401 541 448 514 496 542 449 568z" fill="#8f6d73"/>
+      <path d="M418 532c16 14 43 14 62 2" fill="none"/>
+    </g>
+    <g class="ink">
+      <path d="M582 548 667 499 758 552 672 601z" fill="#f2d5a2"/>
+      <path d="M620 538 667 511 718 540 670 568z" class="roof"/>
+      <path d="M626 552l43 25 42-24" fill="none"/>
+    </g>
+    <g class="ink">
+      <path d="M756 494 835 448 922 498 843 545z" fill="#ead9bc"/>
+      <path d="M813 452 858 477 813 503 769 478z" class="blue"/>
+      <path d="M760 515c58 16 112 9 162-18" fill="none"/>
+    </g>
+  </g>
+  <g opacity=".52">
+    <path d="M126 252c72-28 118-28 169 2" class="thin" fill="none"/>
+    <path d="M942 206c44 12 77 33 99 63" class="thin" fill="none"/>
+    <path d="M97 608c50 20 93 20 130 0" class="thin" fill="none"/>
+  </g>
+</svg>

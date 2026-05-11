@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric La Boqueria market">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead2ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.floor{fill:#f0d3a0}.side{fill:#c9935b}.terra{fill:#c35c3e}.blue{fill:#78c5cc}.green{fill:#6f8d67}.gold{fill:#d9a441}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M258 546 600 348 941 546 600 744z" class="floor"/>
+    <path d="M350 488 470 419 589 488 469 557z" fill="#f6e6c8"/>
+    <path d="M612 488 732 419 851 488 731 557z" fill="#f6e6c8"/>
+    <path d="M360 457 470 394 580 457 470 520z" class="terra"/>
+    <path d="M621 457 731 394 842 457 731 521z" class="blue"/>
+    <path d="M390 516l79 46 83-48v48l-83 49-79-46z" class="side"/>
+    <path d="M650 516l80 46 82-48v48l-82 49-80-46z" class="side"/>
+    <circle cx="440" cy="498" r="13" class="gold"/>
+    <circle cx="474" cy="505" r="12" class="green"/>
+    <circle cx="512" cy="494" r="11" class="terra"/>
+    <circle cx="702" cy="499" r="13" class="terra"/>
+    <circle cx="735" cy="506" r="12" class="gold"/>
+    <circle cx="772" cy="494" r="11" class="green"/>
+    <path d="M502 366l98-56 99 57-98 56z" fill="#f7dcae"/>
+    <path d="M502 366v92l99 57v-92z" fill="#e5bf84"/>
+    <path d="M699 367v91l-98 57v-92z" class="side"/>
+    <path d="M515 374l173 0" class="thin"/>
+    <path d="M553 395l98 0" class="thin"/>
+  </g>
+  <path d="M212 424c65-43 122-52 171-26" class="thin" fill="none"/>
+  <path d="M814 356c70 9 124 38 163 88" class="thin" fill="none"/>
+</svg>

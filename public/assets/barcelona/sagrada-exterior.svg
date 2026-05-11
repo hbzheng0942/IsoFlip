@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Sagrada Familia exterior">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#eed4bb"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".24"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.36;stroke-linecap:round}.stone{fill:#e7bf80}.side{fill:#c99662}.roof{fill:#c35c3e}.glass{fill:#78c5cc}.green{fill:#6f8d67}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M252 540 608 334 952 534 596 739z" fill="#f7e7c8"/>
+    <path d="M381 507 600 380 820 507 601 635z" fill="#e3ad72"/>
+    <path d="M381 507v70l220 126v-68z" fill="#f0d09d"/>
+    <path d="M820 507v70L601 703v-68z" fill="#c9935b"/>
+    <path d="M474 440 599 368 723 440 599 512z" fill="#f4d49e"/>
+    <path d="M474 440v96l125 72v-96z" fill="#ecc184"/>
+    <path d="M723 440v96l-124 72v-96z" fill="#c9935b"/>
+    <g>
+      <path d="M511 274l28-17 30 17v214l-30 17-28-17z" class="stone"/>
+      <path d="M530 205l35 65-67 1z" class="roof"/>
+      <path d="M604 232l29-17 31 17v242l-31 18-29-18z" class="stone"/>
+      <path d="M624 155l39 77-78 1z" class="roof"/>
+      <path d="M692 289l25-15 27 15v170l-27 16-25-16z" class="stone"/>
+      <path d="M709 232l34 58-65 1z" class="roof"/>
+      <path d="M438 318l24-15 27 15v151l-27 16-24-16z" class="stone"/>
+      <path d="M454 261l34 57-65 1z" class="roof"/>
+    </g>
+    <path d="M547 503c35-57 72-58 110 0" fill="none"/>
+    <path d="M568 506c23-34 46-34 68 0" fill="none"/>
+    <path d="M517 533h163" class="thin"/>
+    <path d="M523 564h152" class="thin"/>
+    <path d="M555 410l30 18-30 18-31-18z" class="glass"/>
+    <path d="M640 410l30 18-30 18-31-18z" class="glass"/>
+    <path d="M294 548l59-34 57 33-59 34z" class="green"/>
+    <path d="M800 578l68-39 70 40-69 40z" class="green"/>
+  </g>
+  <path d="M200 274 600 44 1010 282" class="thin" fill="none"/>
+  <path d="M184 302 600 61 1030 309" class="thin" fill="none"/>
+</svg>

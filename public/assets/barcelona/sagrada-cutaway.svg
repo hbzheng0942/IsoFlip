@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Sagrada Familia cutaway">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead0b5"/></linearGradient>
+    <linearGradient id="light" x1="0" x2="1"><stop offset="0" stop-color="#d9a441"/><stop offset=".5" stop-color="#78c5cc"/><stop offset="1" stop-color="#c35c3e"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.stone{fill:#ecc184}.side{fill:#bd8756}.void{fill:#fff4dc}.blue{fill:#78c5cc}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M266 553 605 357 950 557 609 753z" fill="#f7e7c8"/>
+    <path d="M392 501 610 375 831 503 611 630z" class="stone"/>
+    <path d="M392 501v96l219 127v-94z" fill="#efd09b"/>
+    <path d="M831 503v96L611 724v-94z" class="side"/>
+    <path d="M487 359 609 289 731 359 609 430z" class="void"/>
+    <path d="M487 359v162l122 71V430z" fill="#ffe3ad"/>
+    <path d="M731 359v162l-122 71V430z" fill="#d7a06b"/>
+    <path d="M522 384c40 36 71 86 87 152" fill="none"/>
+    <path d="M697 383c-42 38-72 88-88 153" fill="none"/>
+    <path d="M610 428v167" class="thin"/>
+    <path d="M548 457c43 10 84 10 124 0" class="thin"/>
+    <path d="M532 508c52 12 104 12 156 0" class="thin"/>
+    <path d="M537 566c47 13 95 13 144 0" class="thin"/>
+    <path d="M489 302l35-20 36 20v213l-36 20-35-20z" fill="#f0ca8b"/>
+    <path d="M657 302l35-20 36 20v213l-36 20-35-20z" fill="#f0ca8b"/>
+    <path d="M521 222l37 76-73 1z" fill="#c35c3e"/>
+    <path d="M689 222l37 76-73 1z" fill="#c35c3e"/>
+    <path d="M350 476 487 397" class="thin"/>
+    <path d="M870 480 732 398" class="thin"/>
+    <path d="M710 374 914 492 914 628 711 510z" fill="url(#light)" opacity=".42"/>
+    <path d="M391 479 510 410 510 562 391 631z" fill="url(#light)" opacity=".38"/>
+  </g>
+  <path d="M210 604c106 38 210 38 313 1" class="thin" fill="none"/>
+  <path d="M725 219c76 20 138 58 186 114" class="thin" fill="none"/>
+</svg>

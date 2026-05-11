@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Generated Gaudi workshop edge branch">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ecd0b3"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.42;stroke-linecap:round}.wood{fill:#c99461}.paper{fill:#fff0cf}.plaster{fill:#e8d8bf}.blue{fill:#78c5cc}.terra{fill:#c35c3e}.green{fill:#6f8d67}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M260 546 600 350 940 546 600 742z" fill="#f4e2c2"/>
+    <path d="M390 520 566 418 743 520 566 622z" class="wood"/>
+    <path d="M390 520v43l176 102v-43z" fill="#d5a06a"/>
+    <path d="M743 520v43L566 665v-43z" fill="#a87652"/>
+    <path d="M453 493 563 430 675 494 564 558z" class="paper"/>
+    <path d="M683 434 777 380 872 435 777 490z" class="plaster"/>
+    <path d="M683 434v70l94 55v-69z" fill="#dac7ac"/>
+    <path d="M872 435v69l-95 55v-69z" fill="#b99b7f"/>
+    <path d="M479 375c48 69 95 69 141 0" fill="none"/>
+    <path d="M549 333v176" class="thin"/>
+    <path d="M479 375l70-42 71 42" class="thin" fill="none"/>
+    <path d="M462 559c63 31 127 30 193-3" class="thin" fill="none"/>
+    <path d="M777 352l22-13 22 13v78l-22 13-22-13z" class="terra"/>
+    <path d="M825 383l18-10 18 10v58l-18 11-18-11z" class="blue"/>
+    <path d="M333 531l39-23 39 23-39 23z" class="green"/>
+  </g>
+  <path d="M259 358c65-52 141-68 228-47" class="thin" fill="none"/>
+  <path d="M804 284c71 17 125 53 162 108" class="thin" fill="none"/>
+</svg>

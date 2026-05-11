@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Gothic Quarter">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead2ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.stone{fill:#d9bea0}.side{fill:#a77c5f}.roof{fill:#8f6d73}.gold{fill:#d9a441}.green{fill:#6f8d67}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)" class="ink">
+    <path d="M257 548 600 350 943 548 600 746z" fill="#f5e4c6"/>
+    <path d="M390 496 578 388 768 498 580 606z" class="stone"/>
+    <path d="M390 496v90l190 110v-90z" fill="#ddc3a7"/>
+    <path d="M768 498v90L580 696v-90z" class="side"/>
+    <path d="M493 352l42-24 43 24v168l-43 25-42-25z" class="stone"/>
+    <path d="M621 354l42-24 44 25v168l-44 25-42-25z" class="stone"/>
+    <path d="M519 268l52 84H467z" class="roof"/>
+    <path d="M648 270l52 84H596z" class="roof"/>
+    <path d="M550 514c19-48 51-48 69 0" fill="none"/>
+    <path d="M523 458l37-21 37 21-37 21z" fill="#fff0cf"/>
+    <path d="M623 457l37-21 37 21-37 21z" fill="#fff0cf"/>
+    <path d="M326 535 398 493v80l-72 42z" fill="#c4a080"/>
+    <path d="M760 517 845 566v80l-85-49z" fill="#9b6f56"/>
+    <path d="M328 535l72 42 180-104 188 109 76-44" fill="none"/>
+    <path d="M438 608l62 36" class="thin"/>
+    <path d="M710 610l-58 34" class="thin"/>
+    <circle cx="461" cy="572" r="13" class="green"/>
+    <circle cx="712" cy="573" r="13" class="gold"/>
+  </g>
+  <path d="M201 386c49-51 115-67 198-49" class="thin" fill="none"/>
+  <path d="M818 319c68 21 118 58 151 111" class="thin" fill="none"/>
+</svg>

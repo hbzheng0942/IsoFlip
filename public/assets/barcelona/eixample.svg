@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Isometric Eixample">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff9ea"/><stop offset="1" stop-color="#ead2ba"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#5a3924" flood-opacity=".22"/></filter>
+    <style>.ink{stroke:#563b2a;stroke-width:3;stroke-linejoin:round}.thin{stroke:#563b2a;stroke-width:1.5;opacity:.38;stroke-linecap:round}.block{fill:#efd3a4}.side{fill:#c9935b}.roof{fill:#c35c3e}.green{fill:#6f8d67}</style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#s)">
+    <path d="M257 548 600 350 943 548 600 746z" fill="#f6e6c8" stroke="#563b2a" stroke-width="3"/>
+    <g class="ink">
+      <path d="M398 488 474 444 550 488 474 532z" class="block"/>
+      <path d="M398 488v42l76 44v-42z" fill="#e5bf84"/>
+      <path d="M550 488v42l-76 44v-42z" class="side"/>
+      <path d="M513 422 589 378 665 422 589 466z" class="block"/>
+      <path d="M513 422v42l76 44v-42z" fill="#e5bf84"/>
+      <path d="M665 422v42l-76 44v-42z" class="side"/>
+      <path d="M628 489 704 445 780 489 704 533z" class="block"/>
+      <path d="M628 489v42l76 44v-42z" fill="#e5bf84"/>
+      <path d="M780 489v42l-76 44v-42z" class="side"/>
+      <path d="M512 555 588 511 664 555 588 599z" class="block"/>
+      <path d="M512 555v42l76 44v-42z" fill="#e5bf84"/>
+      <path d="M664 555v42l-76 44v-42z" class="side"/>
+      <path d="M601 331l31-18 33 18v135l-33 19-31-19z" fill="#efc88b"/>
+      <path d="M620 278l37 54-70 1z" class="roof"/>
+      <path d="M438 405l44-25 43 25-43 25z" class="green"/>
+      <path d="M724 560l44-25 43 25-43 25z" class="green"/>
+    </g>
+    <path d="M343 519 623 357 847 486" class="thin" fill="none"/>
+    <path d="M414 561 694 399" class="thin"/>
+    <path d="M485 602 765 441" class="thin"/>
+    <path d="M371 477 653 639" class="thin"/>
+    <path d="M441 436 723 598" class="thin"/>
+    <path d="M511 396 793 558" class="thin"/>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-body: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  --atlas-ink: #263238;
+  --atlas-paper: #fff8ea;
+  --atlas-ivory: #f6eddb;
+  --atlas-line: rgba(72, 48, 35, 0.2);
+  --atlas-terracotta: #c35c3e;
+  --atlas-harbor: #2b91a6;
+  --atlas-cypress: #56745d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 12% 16%, rgba(211, 164, 65, 0.2), transparent 28%),
+    radial-gradient(circle at 84% 12%, rgba(43, 145, 166, 0.16), transparent 30%),
+    linear-gradient(135deg, #f9f0df 0%, #f3e3cc 46%, #e8d0b7 100%);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--atlas-ink);
+  font-family: var(--font-body);
+  letter-spacing: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.atlas-grain::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+  background-image:
+    linear-gradient(rgba(38, 50, 56, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 50, 56, 0.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent 78%);
+}
+
+.scene-shell {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(81, 55, 34, 0.24);
+  background:
+    linear-gradient(180deg, rgba(255, 252, 242, 0.8), rgba(245, 223, 194, 0.62)),
+    var(--atlas-paper);
+  box-shadow: 0 24px 70px rgba(85, 56, 34, 0.18);
+}
+
+.scene-shell::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    linear-gradient(120deg, transparent 0 64%, rgba(255, 255, 255, 0.42) 64% 65%, transparent 65%),
+    radial-gradient(circle at 50% 28%, transparent 0 50%, rgba(110, 69, 34, 0.08) 100%);
+  mix-blend-mode: multiply;
+}
+
+.pin-pulse {
+  animation: pin-pulse 1.9s ease-in-out infinite;
+}
+
+@keyframes pin-pulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -54%) scale(1.08);
+  }
+}
+
+.panel-enter {
+  animation: panel-enter 360ms ease both;
+}
+
+@keyframes panel-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.atlas-scrollbar {
+  scrollbar-color: rgba(93, 61, 39, 0.36) rgba(255, 248, 234, 0.28);
+  scrollbar-width: thin;
+}
