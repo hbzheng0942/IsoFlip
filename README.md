@@ -163,4 +163,4 @@ npm run build
 
 The repository includes `.github/workflows/deploy.yml`. After pushing to `main`, enable Pages with GitHub Actions as the source.
 
-The workflow sets `NEXT_PUBLIC_BASE_PATH=/${{ github.event.repository.name }}` so project Pages paths such as `https://USER.github.io/isoflip/` load static assets correctly. Local development leaves the base path empty.
+The workflow sets `NEXT_PUBLIC_BASE_PATH=/${{ github.event.repository.name }}` so project Pages paths such as `https://USER.github.io/IsoFlip/` load static assets correctly. Local development leaves the base path empty.
